@@ -1,0 +1,69 @@
+#include<iostream>
+using namespace std;
+
+class reports
+{
+	private:
+		int reportNo;
+		public:
+			reports(int reportNo);
+			void DisplayPackageDetails(Package*p);
+			void DisplayVehicleDetails(Vehicle*v);
+			void DisplayLocationDetails(Location*l);
+			void DisplayOrderDetails(Order*o);
+			void GenarateReports();
+			void UpdateReports();
+			~reports();
+};
+reports::reports(int reportNo)
+{
+	reportNo=reportNo;
+}
+void reports::DisplayPackageDetails(Package*p)
+	{
+	}
+void reports::DisplayVehicleDetails(Vehicle*v)
+	{
+	}
+void reports::DisplayLocationDetails(Location*l)
+	{
+	}
+void reports::DisplayOrderDetails(Order*o)
+	{
+	}
+void reports::GenarateReports()
+	{
+	}
+void reports::UpdateReports()
+	{
+	}	
+reports::~reports()	
+    {
+	}	
+  
+  class employee
+{
+	private:
+		int empNo;
+		char empName;
+		int password;
+	public:
+		employee(int empNo,char empName,int password);
+		void DisplayEmployeeDetails();
+		void UpdateEmmployeeDetails();
+};
+employee::employee(int empNo,char empName,int password)
+{
+	empNo = empNo;
+	empName	= empName;
+	password = password; 
+}
+void employee::DisplayEmployeeDetails()
+{
+}
+void employee::UpdateEmmployeeDetails()
+{
+}
+employee::~employee()
+{
+}
